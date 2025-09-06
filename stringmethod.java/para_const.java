@@ -1,6 +1,7 @@
 class chain{
     String name;
      int age;
+   //   ### non parameterized constructor
      chain(){
         name = "Mala";
          age = 21;
