@@ -1,6 +1,12 @@
 class call{
     String Name;
     int age;
+    //### Non Parametarise constructure######
+    call(){
+        Name ="Mala";
+        age =21;
+
+    }
     void output(){
         System.out.println("Name = "+ Name);
         System.out.println("Age = "+ age);
