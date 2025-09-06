@@ -1,12 +1,10 @@
-class call{
+class camp{
     String Name;
     int age;
-    //### Non Parametarise constructure######
-    call(){
-        Name ="Mala";
-        age =21;
-
-    }
+    //### Parametarise constructure######
+        camp(String name,int age){
+            this.Name = name;
+            this.age = age; }
     void output(){
         System.out.println("Name = "+ Name);
         System.out.println("Age = "+ age);
@@ -14,7 +12,7 @@ class call{
 }
 public class Const_call {
     public static void main(String[] args) {
-         call call1 = new call();
+         camp call1 = new camp("Mala", 21);
          call1.output();
 }
 }
