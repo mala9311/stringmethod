@@ -1,7 +1,6 @@
 class camp{
     String Name;
     int age;
-    //### Parametarise constructure######
         camp(String name,int age){
             this.Name = name;
             this.age = age; }
